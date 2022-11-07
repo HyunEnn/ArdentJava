@@ -1,0 +1,4 @@
+Arrays 문법 / equals 
+
+단순 equals 를 사용하면 참조 변수가 같은 지에 대한 true, false를 반환하므로
+overriding을 통해 변수값이 같은 지를 비교할 수 있는 내용을 정의해야함.
