@@ -1,4 +1,4 @@
-package ch26;
+package ch27;
 
 interface RPrintable {
 	void print(String s);
