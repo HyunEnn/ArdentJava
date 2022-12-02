@@ -15,7 +15,7 @@ public class prac2901 {
 		// TODO Auto-generated method stub
 		List<Box<String>> ls = Arrays.asList(new Box<>("Robot"), new Box<>("Simple"));
 		ls.stream()
-		  .filter(n -> n.get() == "Robot")
+		  .map(n -> n.get())
 		  .forEach(s -> System.out.println(s));
 	}
 
